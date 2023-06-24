@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri, sans-serif;
+}
+
+body {
+  align-items: center;
+  background-image: url(../cavexpociencia/img/logo_expo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  height: 100vh;
+  justify-content: center;
+}
+
+h1 {
+  /*color: #666;*/
+  color: #202020a8;
+}
+h2 {
+  /*color: #666;*/
+  color: #031b36d8;
+  font-family: "Gabriola", Cursive;
+}
+
+form {
+  background: #eeeeeebe;
+  border-radius: 5px;
+  box-shadow: 5px 5px 1px #ff1100b6  inset, 5px 5px 1px #00243ba9, #080808b6 4px 4px 30px;;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  margin: 0 10px;
+  padding: 6em;
+  width: 48em;
+}
+
+input, textarea, button{
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  color: #777;
+  font-size: 16px;
+  outline: none;
+  padding: 1em;
+  width: 100%;
+}
+
+select{
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  color: #777;
+  font-size: 16px;
+  outline: none;
+  padding: 1em;
+  width: 100%;
+}
+#file-upload-button{
+	color: #ffffff;
+	transition-duration: 0.4s;
+}
+#file-upload-button:hover{
+	 background-color: #f7f7f7;
+}
+
+button{
+  color: #204076;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #204076;
+  transition-duration: 0.3s;
+}
+button:hover {
+  color: #660000;
+  background-color: #d8d8d8;
+ border: 2px solid #000018;
+  cursor: pointer;
+  font-weight: bold;
+}
